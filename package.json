@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "./dist/index",
   "types": "./dist/index",
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "zod": "^3.17.3"
   },
