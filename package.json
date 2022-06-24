@@ -1,0 +1,14 @@
+{
+  "name": "refine-type",
+  "version": "0.0.1",
+  "main": "./dist/index",
+  "types": "./dist/index",
+  "peerDependencies": {
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "zod": "^3.17.3"
+  },
+  "packageManager": "yarn@3.2.1"
+}
