@@ -45,7 +45,7 @@ class ZodRefine<Type, Knowledge extends string> extends ZodType<
   _parse(input: z.ParseInput): z.ParseReturnType<Refine<Type, Knowledge>> {
     return {
       status: "valid",
-      value: input as unknown as Refine<Type, Knowledge>,
+      value: input.data as unknown as Refine<Type, Knowledge>,
     };
   }
 }
